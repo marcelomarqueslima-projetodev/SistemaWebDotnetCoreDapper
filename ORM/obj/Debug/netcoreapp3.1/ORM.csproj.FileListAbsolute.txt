@@ -1,0 +1,12 @@
+C:\dev\SistemaWebDotnetCoreDapper\ORM\bin\Debug\netcoreapp3.1\ORM.deps.json
+C:\dev\SistemaWebDotnetCoreDapper\ORM\bin\Debug\netcoreapp3.1\ORM.dll
+C:\dev\SistemaWebDotnetCoreDapper\ORM\bin\Debug\netcoreapp3.1\ORM.pdb
+C:\dev\SistemaWebDotnetCoreDapper\ORM\bin\Debug\netcoreapp3.1\Entities.dll
+C:\dev\SistemaWebDotnetCoreDapper\ORM\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.csproj.AssemblyReference.cache
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.AssemblyInfoInputs.cache
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.AssemblyInfo.cs
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.csproj.CoreCompileInputs.cache
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.csproj.CopyComplete
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.dll
+C:\dev\SistemaWebDotnetCoreDapper\ORM\obj\Debug\netcoreapp3.1\ORM.pdb
