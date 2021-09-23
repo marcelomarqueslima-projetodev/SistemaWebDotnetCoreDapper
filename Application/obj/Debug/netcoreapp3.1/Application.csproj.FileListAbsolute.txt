@@ -123,3 +123,5 @@ C:\dev\SistemaWebDotnetCoreDapper\Application\bin\Debug\netcoreapp3.1\tr\Microso
 C:\dev\SistemaWebDotnetCoreDapper\Application\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\dev\SistemaWebDotnetCoreDapper\Application\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\dev\SistemaWebDotnetCoreDapper\Application\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastrar.cshtml.g.cs
+C:\dev\SistemaWebDotnetCoreDapper\Application\obj\Debug\netcoreapp3.1\Razor\Views\Home\Editar.cshtml.g.cs
+C:\dev\SistemaWebDotnetCoreDapper\Application\obj\Debug\netcoreapp3.1\Razor\Views\Home\Remover.cshtml.g.cs

@@ -16,10 +16,15 @@
             <tbody>
                 @foreach (var item in Model)
                 {
-                    <tr>
-                        <td>@item.Tarefa</td>
-                        <td></td>
-                    </tr>
+                <tr>
+                    <td>@item.Tarefa</td>
+                    <td>
+                        <div class="float-end">
+                            @Html.ActionLink("Editar", "Editar", "Home", new { id = item.Id }, new { @class = "btn btn-warning btn-sm" })
+                            @Html.ActionLink("Remover", "Remover", "Home", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+                        </div>
+                    </td>
+                </tr>
                 }
             </tbody>
         </table>

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using ORM.Interfaces;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
 
 namespace ORM
 {
@@ -25,7 +26,12 @@ namespace ORM
 
         public Todo Get(int Id)
         {
-            throw new System.NotImplementedException();
+            string sql = $"SELECT * FROM Todo WHERE Id = {Id}";
+
+            using(var con = new SqlConnection(base.GetConnection()))
+            {
+                return con.Query<Todo>(sql).FirstOrDefault();
+            }
         }
 
         public IEnumerable<Todo> GetAll()
@@ -41,12 +47,24 @@ namespace ORM
 
         public void Remove(Todo obj)
         {
-            throw new System.NotImplementedException();
+            string sql = $"DELETE FROM Todo WHERE Id = {obj.Id}";
+            using (var con = new SqlConnection(GetConnection()))
+            {
+                con.Execute(sql);
+            }
         }
 
         public void Update(Todo obj)
         {
-            throw new System.NotImplementedException();
+            string sql = $@"UPDATE Todo SET Tarefa = @Tarefa WHERE Id = {obj.Id}";
+
+            DynamicParameters pam = new DynamicParameters();
+            pam.Add("@Tarefa", obj.Tarefa);
+
+            using (var con = new SqlConnection(GetConnection()))
+            {
+                con.Execute(sql, pam);
+            }
         }
     }
 }
